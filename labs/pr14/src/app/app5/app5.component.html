@@ -1,0 +1,10 @@
+<h1>
+  //5
+</h1>
+
+<ul>
+  <li *ngFor="let item of list;index as i"><span [hidden]="!item.check">{{item.text}}</span>
+    <input type="checkbox" [checked]="item.check" (change)="changeListIndex($event,i)">
+    </li>
+
+</ul>

@@ -1,0 +1,15 @@
+<h1>
+  //10
+</h1>
+
+<select (change)="changeValue($event)">
+  <option *ngFor="let item of list;index as i" value="{{i}}">
+    {{item.country}}
+  </option>
+</select>
+
+<select >
+  <option *ngFor="let item of list[value].cities">
+    {{item}}
+  </option>
+</select>

@@ -1,0 +1,12 @@
+
+.textDecoration{
+  text-decoration:line-through;
+}
+
+.textVisibility{
+  visibility: hidden; 
+}
+
+.border{
+  border: thick double #32a1ce;
+}

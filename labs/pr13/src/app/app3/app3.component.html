@@ -1,0 +1,11 @@
+<h1>
+  //3
+</h1>
+
+<ul>
+  <li *ngFor="let item of list">
+    {{item}}
+  </li>
+</ul>
+
+<input type="checkbox" [checked]="false" name="checkbox" (change)="changeList($event)" id="">

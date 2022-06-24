@@ -1,0 +1,11 @@
+<h1>
+  //7
+</h1>
+
+
+<input type="checkbox" [checked]="check" (change)="changeCheck($event)">
+
+<input type="checkbox" [checked]="check2" (change)="changeCheck2($event)">
+<span [ngClass]="{'red':check,'decor':check2}">
+  text
+</span>

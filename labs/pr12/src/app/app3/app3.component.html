@@ -1,0 +1,11 @@
+<h1>
+    //3
+</h1>
+
+<ul *ngFor="let i of countries">
+    <li>
+        {{i}}
+    </li>
+</ul>
+
+<input type="text" (blur)="addCounrie($event)">

@@ -1,0 +1,8 @@
+<h1>
+  //9
+</h1>
+
+<select (change)="changeValue($event)">
+  <option *ngFor="let item of list;index as i" value="{{i}}">{{item}}</option>
+</select>
+<input type="text" [value]="list[value]">

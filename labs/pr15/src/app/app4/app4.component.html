@@ -1,0 +1,11 @@
+<h1>
+  //4
+</h1>
+
+<table>
+  <tr *ngFor="let item of list">
+    <td>{{item.name |lowercase}}</td>
+    <td>{{item.date | date:"dd.MM.yyyy"}}</td>
+    <td>{{item.age}}</td>
+  </tr>
+</table>
